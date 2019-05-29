@@ -3,7 +3,7 @@ def run_guessing_game
   puts "Guess a number between 1 and 6."
   user_response = gets.chomp
 
-  number = generate_number
+  number = generate_number.to_s
 
   while user_response != "exit"
 
